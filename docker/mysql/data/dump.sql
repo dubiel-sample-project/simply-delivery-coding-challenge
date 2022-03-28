@@ -61,7 +61,7 @@ CREATE TABLE `item` (
 
 LOCK TABLES `item` WRITE;
 /*!40000 ALTER TABLE `item` DISABLE KEYS */;
-INSERT INTO `item` VALUES (1,'Pizza',14.99),(2,'Hamburger',7.99),(3,'French Fries',4.99),(5,'new item',10.00);
+INSERT INTO `item` VALUES (1,'Pizza',14.99),(2,'Hamburger',7.99),(3,'French Fries',4.99);
 /*!40000 ALTER TABLE `item` ENABLE KEYS */;
 UNLOCK TABLES;
 
