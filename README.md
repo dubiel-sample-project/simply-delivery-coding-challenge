@@ -10,7 +10,7 @@ The api architecture consists of three services (nginx, php and mysql) all manag
 2. After successfully building, log into the php container using `docker exec -it {php_container_name} bash`
 3. From the root directory (/var/www/symfony) run `composer install` to install packages from the composer.lock file. If composer can not be found there is a shell script `composer_install.sh` to install it
 4. After installation, the api should be available from port 8001 at localhost
-5. Database fixtures can be loaded using `bin/console doctrine:fixtures:load`
+5. A dump file is provided in the mysql service but database fixtures can also be loaded using `bin/console doctrine:fixtures:load`
 
 ## Overview
 
