@@ -16,4 +16,4 @@ The api architecture consists of three services (nginx, php and mysql) all manag
 
 The documentation for the api can be found at `/api/doc`
 
-There is a make file in the root directory for running the tests which can be executed using `make run-tests`
+There is a make file in the root directory for running the tests which can be executed using `make tests`
